@@ -37,7 +37,7 @@ export default class HpPage extends React.Component{
                                 </div>
                             <div className={HpCSS.detail1}>
                                 <p className={HpCSS.name1}>
-                                    <span className={HpCSS.n1}>神龙法师变化</span>
+                                    <span className={HpCSS.n1}>神龙法师</span>
                                 </p>
                                 <p className={HpCSS.star1}>主演：邱雨铄 魏笑 张欣琦 梁证嘉 侯乃森</p>
                             </div>
