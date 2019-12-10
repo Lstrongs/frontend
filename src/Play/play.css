@@ -1,0 +1,169 @@
+.act{
+    overflow: hidden;
+}
+.header{
+    width: 100%;
+    height: 56px;
+    position: relative;
+    left: 73px;
+}
+.headerys{
+    display: flex;
+    width: 80px;
+    font-size: 1.2rem;
+    position: relative;
+    left: 355px;
+    top: 15px;
+}
+.search{
+    width: 500px;
+    position: relative;
+    left: 750px;
+    bottom: 14px;
+}
+.lh{
+    display: flex;
+    width: 160px;
+    height: 25px;
+    position: relative;
+    left: 1280px;
+    bottom: 40px;
+}
+.span{
+    position: relative;
+    left: 10px;
+    bottom: 1px;
+}
+.history{
+    position: relative;
+    left: 20px;
+}
+.body1{
+    position: relative;
+    height: 300px;
+    display: flex;
+   background-color: rgb(243, 243, 243);
+}
+.bf{
+    padding-top: 20px;
+    padding-left: 428px;
+    display: flex;
+}
+.name{
+    display: flex;
+    height: 40px;
+    width: 700px;
+    font-size: 1.5rem;
+    position: relative;
+    left: 30px;
+    top: 20px;
+}
+.scroe{
+    display: flex;
+    width: 250px;
+    display: flex;
+    height: 40px;
+}
+.scroe p{
+    display: flex;
+    height: 40px;
+    font-size: 1.5rem;
+    color: red;
+    position: relative;
+    left: 672px;
+    top: 21px;
+}
+.type{
+    font-size: 0.5rem;
+    display: flex;
+    height: 150px;
+    width: 2000px;
+    position: relative;
+    top: 65px;
+    right: 188px;
+}
+.type1{
+    overflow: hidden;
+    display: flex;
+    width: 25px;
+    height: 20px;;
+    font-size: 0.5rem;
+    position: relative;
+    left: 5px;
+}
+.type1 span{
+    position: relative;
+    right: 14px;
+}
+.type2{
+    overflow: hidden;
+    display: flex;
+    width: 25px;
+    height: 20px;;
+    font-size: 0.5rem;
+    position: relative;
+    left: 10px;
+}
+.type2 span{
+    position: relative;
+    right: 14px;
+}
+.type3{
+    overflow: hidden;
+    display: flex;
+    width: 25px;
+    height: 20px;;
+    font-size: 0.5rem;
+    position: relative;
+    left: 15px;
+}
+.type3 span{
+    position: relative;
+    right: 14px;
+}
+.year{
+    height: 20px;
+    position: relative;
+    left: 80px;
+}
+.place{
+    height: 20px;
+    position: relative;
+    left: 200px;
+}
+.director{
+    height: 20px;
+    position: relative;
+    top: 35px;
+    right: 249px;;
+}
+.actor{
+    height: 20px;
+    position: relative;
+    top: 35px;
+    right: 93px;
+}
+.ljbf{
+    height: 40px;
+    position: relative;
+    top: 230px;
+    right: 650px;
+}
+.ljbf1{
+    width: 150px;
+    height: 40px;
+    font-size: 1rem;
+    color: rgb(255, 255, 255);
+    background-color: rgb(65, 192, 150);
+}
+.intro{ 
+    display: flex;
+    width: 2000px;
+    height: 90px;
+    position: relative;
+    top: 138px;
+    right: 802px;
+}
+.intro p{
+    font-size: 0.5rem;
+}

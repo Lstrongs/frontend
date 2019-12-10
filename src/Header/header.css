@@ -1,0 +1,92 @@
+.logout{
+    font-size: 0.5rem;
+    position: relative;
+    left: 1058px;
+}
+.header{
+    height: 500px;
+    background-color: white;
+}
+.header1{
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 1.5rem;
+}
+.span{
+    color: black;
+}
+.header1 a{
+    text-decoration: none;
+}
+.headertt{
+    position: relative;
+    right: 550px;
+}
+.headerl{
+    font-size: 0.7rem;
+    position: relative;
+    left: 1050px;
+}
+.headers{
+    font-size: 0.5rem;
+    text-align: left;
+    height: 39px;
+    width: 378px;
+    border-radius: 15px;
+    position: relative;
+    right: 40px;
+}
+.headers input{
+    background-color: transparent;
+    border: 1px,solid;
+    text-align: left;
+    height: 39px;
+    width: 378px;
+    border-radius: 15px;  
+    padding-left: 10px;  
+}
+.headersb{
+    font-size: 1rem;
+    color:white;
+    width: 80px;
+    height: 38px;
+    border-radius: 15px;
+    background-color: rgb(81, 223, 164);
+    overflow: hidden;
+    text-align: center;
+    position: relative;
+    bottom: 2px;
+    right: 119px;
+}
+.menu{
+    font-size: 0.5rem;
+    position: relative;
+    left: 490px;
+}
+.lbt{
+    width: 100%;
+    height: 500px;
+}
+.lbt1{
+    background: url(大侦探皮卡丘.jpg) no-repeat;
+    background-size: 100% 100%;
+    height: 500px;;
+}
+.lbt2{
+    background: url(哥斯拉2.jpg) no-repeat;
+    background-size: 100% 100%;
+    height: 500px;
+}
+.lbt3{
+    background: url(反贪风暴4.jpg) no-repeat;
+    background-size: 100% 100%;
+    height: 500px;;
+}
+.lbt4{
+    background: url(奇异博士.jpg) no-repeat;
+    background-size: 100% 100%;
+    height: 500px;
+}

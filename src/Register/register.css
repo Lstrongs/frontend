@@ -1,0 +1,181 @@
+.registerA{
+    width: 150px;
+    position: relative;
+    left: 450px;
+}
+.registerA a{
+    color: antiquewhite;
+    text-decoration: none;
+}
+.registera{
+    width: 60px;
+    height: 50px;
+    position: relative;
+    top: 30px;
+    left: 25px;
+}
+.registera a{
+    text-decoration: none;
+}
+.register{
+    height: 2.5rem;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: rgb(17, 4, 4);
+    font-size: 1.5rem;
+}
+.register h5{
+    width: 50px;
+    position: relative;
+    left: 65px;
+    bottom: 15px;
+}
+.registerB{
+    height: 550px;
+    background-image: url(login.jpg) ;
+    background-color: cover;
+}
+.registerC{
+    width: 360px;
+    height: 444px;
+    overflow: hidden;
+    background-color: white;
+    position: relative;
+    top: 55px;
+    left: 1075px;
+    overflow: hidden;
+}
+.registerS{
+    position: relative;
+    bottom: 10px;
+}
+.registerS input{
+    font-size: 0.5rem;
+    width: 242px;
+    height: 32px;
+    background: none;
+    border: 1px solid #6d8071;
+    margin: 9 10px 0px 35;
+    padding-left: 20px;
+
+    color: gray;
+}
+.registery input{
+    font-size: 0.5rem;
+    width: 140px;
+    height: 32px;
+    background: none;
+    border: 1px solid #6d8071;
+    margin: 9 10px 0px 35;
+    padding-left: 20px;
+    color: gray;
+    position: relative;
+    bottom: 5px;
+    right: 51px;
+}
+.registeryzm{
+    font-size: 0.5rem;
+    width: 100px;
+    position: relative;
+    left: 205px;
+    bottom: 38px;
+}
+.registerhq button{
+    font-size: 0.5rem;
+    text-align: center;
+    width: 99px;
+    height: 32px;
+    background: rgb(53, 216, 194);
+    border: 1px solid #44695d;
+    color: white;
+    margin: 9 10px 0px 35;
+    position: relative;
+    bottom: 72px;
+    left: 70px;
+}
+
+.registerdx input{
+    font-size: 0.5rem;
+    width: 130px;
+    height: 32px;
+    background: none;
+    border: 1px solid #6d8071;
+    margin: 9 10px 0px 35;
+    padding-left: 20px;
+    color: gray;
+    position: relative;
+    right: 56px;
+    bottom:33px;
+}
+.registersr input{
+    font-size: 0.5rem;
+    width: 242px;
+    height: 32px;
+    background: none;
+    border: 1px solid #6d8071;
+    margin: 9 10px 0px 35;
+    padding-left: 20px;
+    color: gray;
+    position: relative;
+    bottom: 67px;
+}
+.registerS button{
+    text-align: center;
+    width: 264px;
+    height: 35px;
+    background: rgb(53, 216, 194);
+    border: 1px solid #44695d;
+    color: white;
+    margin: 9 10px 0px 35;
+    padding-left: 20px;
+    position: relative;
+    top: 15px;
+}
+.registerl button{
+    font-size: 1rem;
+    text-align: center;
+    width: 243px;
+    height: 32px;
+    background: rgb(53, 216, 194);
+    border: 1px solid #44695d;
+    color: white;
+    margin: 9 10px 0px 35;
+    padding-left: 20px;
+    position: relative;
+    bottom: 52px;
+}
+.registerla{
+    font-size: 0.5rem;
+    height: 50px;
+    width: 360px;
+    position: relative;
+    bottom: 48px;
+    left: 82px;
+}
+.registerla a{
+    text-decoration: none;
+}
+.Icon{
+    font-size: 1.1rem;
+}
+.mobile{
+    position: relative;
+    bottom: 316px;
+    right: 83px;;
+}
+.mail{
+    position: relative;
+    bottom: 228px;
+    right: 101px;
+}
+.lock{
+    position: relative;
+    bottom: 184px;
+    right: 136px;
+}
+.check{
+    position: relative;
+    bottom: 272px;
+    right: 119px;
+}

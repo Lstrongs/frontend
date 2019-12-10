@@ -1,0 +1,17 @@
+http.sslcainfo=C:/Program Files/Git/mingw64/ssl/certs/ca-bundle.crt
+http.sslbackend=openssl
+diff.astextplain.textconv=astextplain
+core.autocrlf=true
+core.fscache=true
+core.symlinks=false
+credential.helper=manager
+filesystem.Oracle Corporation|1.8.0_221|1254266807.timestampresolution=1001 microseconds
+filesystem.Oracle Corporation|1.8.0_221|1254266807.minracythreshold=0 nanoseconds
+user.name=Lstrong
+user.email=1152978739@qq.com
+core.repositoryformatversion=0
+core.filemode=false
+core.bare=false
+core.logallrefupdates=true
+core.symlinks=false
+core.ignorecase=true
