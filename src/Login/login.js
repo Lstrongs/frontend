@@ -7,27 +7,34 @@ export default class LoginPage extends React.Component{
 
     constructor(props){
         super(props)
-        this.state={
-            usermane:'',
-            password:''
-        }
+        this.state={}
     }
     changeValue = e=>{
         this.setState({
             [e.target.name]:e.target.value
-            
         })
     }
-    info = e=>{
-        //访问服务器，登陆成功
-        if(this.state.usermane=='123'&&this.state.password=='123'){
-            alert('登陆成功');
-            window.localStorage.setItem("username","123")
-            window.localStorage.setItem("token","11111")
-            this.props.history.push('/homepage')
-        }else{
-            alert('登陆失败')
+    upload =()=>{
+        var data={
+            "username":this.state.username,
+            "password":this.state.password,
         }
+        fetch("",{
+            method:"post",
+            headers:{
+                "Content-Type":"application/json"
+            },
+            body:JSON.stringify(data)
+        }).then(response=>response.json())
+        .then(result=>{
+            if(result.state==2){
+               
+            }else if(result.state==1){
+               
+            }      
+        }).catch(e=>{
+           
+        })
     }
 
     render(){
@@ -40,14 +47,14 @@ export default class LoginPage extends React.Component{
            <div className={loginCSS.loginC}>
                <h5>账户登录</h5>
                <div className={loginCSS.loginS}>
-            <Input type="text" name="usermane" id="username" value={this.state.username} onChange={e=>this.changeValue(e)} placeholder="请输入手机号" />
+            <Input type="text" name="username"  value={this.state.username} onChange={e=>this.changeValue(e)} placeholder="请输入手机号"></Input>
             </div>
             <div className={loginCSS.logink}>
-            <Input type="text" name="password" id="password" value={this.state.password} onChange={e=>this.changeValue(e)} placeholder="请输入密码" />
+            <Input type="text" name="password"  value={this.state.password} onChange={e=>this.changeValue(e)} placeholder="请输入密码"></Input>
             </div>
             <div className={loginCSS.loginS}>
-               
-            <Button onClick={this.login} onClick={this.info} name="login">立即登录</Button>
+            <Link to="/homepage">
+            <Button onClick={this.upload} name="login">立即登录</Button></Link>
             <div className={loginCSS.link}>
             <p className={loginCSS.register}><NavLink to="/register">立即注册</NavLink></p>
             </div>
