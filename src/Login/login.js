@@ -1,6 +1,6 @@
 import React from 'react'
 import {Link,NavLink} from 'react-router-dom'
-import {  Icon } from 'antd';
+import {  Icon,Button,Input } from 'antd';
 var loginCSS= require('./login.css')
 
 export default class LoginPage extends React.Component{
@@ -15,6 +15,7 @@ export default class LoginPage extends React.Component{
     changeValue = e=>{
         this.setState({
             [e.target.name]:e.target.value
+            
         })
     }
     info = e=>{
@@ -39,14 +40,14 @@ export default class LoginPage extends React.Component{
            <div className={loginCSS.loginC}>
                <h5>账户登录</h5>
                <div className={loginCSS.loginS}>
-            <input type="text" name="usermane" id="usermane" value={this.state.username} onChange={this.changeValue} placeholder="请输入手机号" />
+            <Input type="text" name="usermane" id="username" value={this.state.username} onChange={e=>this.changeValue(e)} placeholder="请输入手机号" />
             </div>
             <div className={loginCSS.logink}>
-            <input type="text" name="password" id="password" value={this.state.password} onChange={this.changeValue} placeholder="请输入密码" />
+            <Input type="text" name="password" id="password" value={this.state.password} onChange={e=>this.changeValue(e)} placeholder="请输入密码" />
             </div>
             <div className={loginCSS.loginS}>
                
-            <button onClick={this.login} onClick={this.info} name="login">立即登录</button>
+            <Button onClick={this.login} onClick={this.info} name="login">立即登录</Button>
             <div className={loginCSS.link}>
             <p className={loginCSS.register}><NavLink to="/register">立即注册</NavLink></p>
             </div>

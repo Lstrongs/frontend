@@ -63,7 +63,7 @@
 }
 .registery input{
     font-size: 0.5rem;
-    width: 140px;
+    width: 242px;
     height: 32px;
     background: none;
     border: 1px solid #6d8071;
@@ -72,15 +72,9 @@
     color: gray;
     position: relative;
     bottom: 5px;
-    right: 51px;
+    right: 0px;
 }
-.registeryzm{
-    font-size: 0.5rem;
-    width: 100px;
-    position: relative;
-    left: 205px;
-    bottom: 38px;
-}
+
 .registerhq button{
     font-size: 0.5rem;
     text-align: center;
@@ -94,20 +88,6 @@
     bottom: 72px;
     left: 70px;
 }
-
-.registerdx input{
-    font-size: 0.5rem;
-    width: 130px;
-    height: 32px;
-    background: none;
-    border: 1px solid #6d8071;
-    margin: 9 10px 0px 35;
-    padding-left: 20px;
-    color: gray;
-    position: relative;
-    right: 56px;
-    bottom:33px;
-}
 .registersr input{
     font-size: 0.5rem;
     width: 242px;
@@ -118,7 +98,7 @@
     padding-left: 20px;
     color: gray;
     position: relative;
-    bottom: 67px;
+    bottom: 0px;
 }
 .registerS button{
     text-align: center;
@@ -143,14 +123,14 @@
     margin: 9 10px 0px 35;
     padding-left: 20px;
     position: relative;
-    bottom: 52px;
+    top: 10px;
 }
 .registerla{
     font-size: 0.5rem;
     height: 50px;
     width: 360px;
     position: relative;
-    bottom: 48px;
+    top: 12px;
     left: 82px;
 }
 .registerla a{
@@ -161,21 +141,16 @@
 }
 .mobile{
     position: relative;
-    bottom: 316px;
-    right: 83px;;
+    bottom: 205px;
+    right: 93px;;
 }
-.mail{
+.user{
     position: relative;
-    bottom: 228px;
-    right: 101px;
+    bottom: 162px;
+    right: 110px;
 }
 .lock{
     position: relative;
-    bottom: 184px;
-    right: 136px;
-}
-.check{
-    position: relative;
-    bottom: 272px;
-    right: 119px;
+    bottom: 117px;
+    right: 127px;
 }

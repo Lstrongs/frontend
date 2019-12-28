@@ -62,7 +62,7 @@
     padding-left: 20px;
     color: gray;
     position: relative;
-    top: 60px;
+    top: 63px;
     right: 8px;
 }
 .loginS button{
@@ -107,6 +107,6 @@
 }
 .lock{
     position: relative;
-    bottom: 150px;
+    bottom: 147px;
     right: 126px;
 }
