@@ -42,14 +42,37 @@ export default class Movie extends React.Component{
                 </div>
                 </div>
             </div>
-            <div>
-                <p>{this.props.Movie.poster}</p>
-                <p>{this.props.Movie.name}</p>
-               <Button> <p>{this.props.Movie.type}</p></Button>
-                <p>{this.props.Movie.direction}</p>
-                <p>{this.props.Movie.actor}</p>
-                <p>{this.props.Movie.describe}</p>
-            </div></div>
+
+            <div className={movieCSS.body1}>
+                <div className={movieCSS.bf}>
+                <Link to="/video"><img src="https://p.ssl.qhimg.com/t0183b24336187e73af.jpg"></img>
+                <p>{this.props.Movie.poster}</p></Link>
+                </div>
+            <div className={movieCSS.name}>
+            <p>{this.props.Movie.name}</p>
+            </div>
+            <div className={movieCSS.scroe}>
+              <p> {this.props.Movie.score}</p>
+            </div>
+            <div  className={movieCSS.type}>
+                类型 :      
+                    <Link to="/act/ry"><Button shape="round"  type="ghost" className={movieCSS.type1}><span>{this.props.Movie.type1}</span></Button></Link>
+                    <Link to="/act/ry"><Button shape="round"  type="ghost" className={movieCSS.type2}><span>{this.props.Movie.type2}</span></Button></Link>
+                    <Link to="/act/ry"><Button shape="round"  type="ghost" className={movieCSS.type3}><span>{this.props.Movie.type3}</span></Button></Link>
+            <p className={movieCSS.year}>年代: {this.props.Movie.year}</p>
+            <p className={movieCSS.place}>地区: {this.props.Movie.area}</p>
+            <p className={movieCSS.director}>导演: {this.props.Movie.direction}</p>
+            <p className={movieCSS.actor}>演员: {this.props.Movie.actor}</p>
+            
+            </div>
+            <div className={movieCSS.ljbf}>
+                <Link to="/video"><Button shape="round" type="ghost" className={movieCSS.ljbf1}>立即播放</Button></Link>
+            </div>
+            <div className={movieCSS.intro}>
+            <p>{this.props.Movie.describe}</p>
+           </div>
+            </div>
+                </div>
         )
     }
 }
