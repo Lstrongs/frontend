@@ -9,7 +9,7 @@ const onClick = ({ key }) => {
   };
   const menu = (
     <Menu onClick={onClick}>
-      <Menu.Item key="1"><Link to="/login">一个母亲的复仇</Link></Menu.Item>
+      <Menu.Item key="1"><Link to="/play">一个母亲的复仇</Link></Menu.Item>
       <Menu.Item key="2">大侦探皮卡丘</Menu.Item>
       <Menu.Item key="3">何以为家</Menu.Item>
     </Menu>

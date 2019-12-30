@@ -1,24 +1,43 @@
 import React from 'react'
 import { Pagination } from 'antd';
 import {Link,BrowserRouter,Route} from 'react-router-dom'
-
 var RyCSS= require('./ry.css')
-
-
-
-
 export default class RyPage extends React.Component{
-    
         state = {
           current: 3,
         };
-      
         onChange = page => {
           console.log(page);
           this.setState({
             current: page,
           });
         };
+
+        constructor(props){
+            super(props);
+            this.state={
+                movieData:[]
+            }
+        }
+        changeValue=(e)=>{
+            this.setState({
+                [e.target.name]:e.target.value
+            })
+        }
+        upload =()=>{
+            var data={
+                "poster":this.state.poster,
+                "moviename":this.state.moviename,
+                "actor":this.state.actor,
+            }
+            fetch("",{
+                method:"post",
+                headers:{
+                    "Content-Type":"application/json"
+                },
+                body:JSON.stringify(data)
+            }).then(response=>response.json())
+        }
     render(){
         return(
             
@@ -26,13 +45,13 @@ export default class RyPage extends React.Component{
                 <div className={RyCSS.movie1}>
                         <Link to="/play">
                             <div className={RyCSS.movie1-1}>
-                                <img src="https://p.ssl.qhimg.com/t0183b24336187e73af.jpg"></img>
+                                <img src="https://p.ssl.qhimg.com/t0183b24336187e73af.jpg" name="poster"value={this.state.poster} onChange={e=>this.changeValue(e)}></img>
                                 </div>
                             <div className={RyCSS.detail1}>
-                                <p className={RyCSS.name1}>
+                                <p className={RyCSS.name1} name="moviename"value={this.state.moviename} onChange={e=>this.changeValue(e)}>
                                     <span className={RyCSS.n1}>金三角大营救</span>
                                 </p>
-                                <p className={RyCSS.star1}>主演：彭禺厶 于心妍 李乔丹</p>
+                                <p className={RyCSS.star1} name="actor"value={this.state.actor} onChange={e=>this.changeValue(e)}>主演：彭禺厶 于心妍 李乔丹</p>
                             </div>
                             </Link> 
                             </div>

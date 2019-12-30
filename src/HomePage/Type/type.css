@@ -1,0 +1,224 @@
+.type{
+    color: black;
+    display: flex;
+    width: 815px;
+    height: 30px;
+    font-size: 1rem;
+    position: relative;
+    left: 118px;
+    top: 100px;
+}
+.dl1{
+    background-color: rgb(221, 212, 212);
+    border-radius: 15px;
+    display: flex;
+    height: 30px;
+    width: 800px;
+    padding-top: 2px;
+}
+.dt1{
+    display: flex;
+    width: 40px;
+   position: relative;
+   left: 22px;
+}
+.dd1 a{
+    color: #000;
+    padding-left: 15px;
+}
+.dl2{
+    position: relative;
+    left: 50px;
+    background-color: rgb(221, 212, 212);
+    border-radius: 15px;
+    display: flex;
+    height: 30px;
+    width: 750px;
+    padding-top: 2px;
+}
+.dt2{
+    display: flex;
+    width: 40px;
+   position: relative;
+   left: 22px;
+}
+.dd2 a{
+    color: #000;
+    padding-left: 15px;
+}
+.list{
+    display: flex;
+    width: 300px;
+    height: 33px;
+    font-size: 1.5rem;
+    position: relative;
+    top: 125px;
+    left: 140px;
+}
+.list1{
+    display: flex;
+    width: 150px;
+    height: 50px;
+    position: relative;
+    left: 20px;
+}
+.l1{
+    display: flex;
+    width: 60px;
+    height: 25px;
+    font-size: 0.5rem;
+    padding-left: 10px;
+    position: relative;
+    top: 50px;
+    right: 140px;
+}
+.ry{
+    display: flex;
+    width: 1590px;
+    position: relative;
+    left: 110px;
+    top: 180px;
+}
+.movie1{
+    display: flex;
+    width: 196px;
+    height: 305px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    position: relative;
+    left: 30px;
+}
+.n1{
+    font-size: 1rem;
+    color: #000;
+}
+.star1{
+    color: rgb(184, 178, 178);
+    position: relative;
+    bottom: 15px;
+}
+.movie2{
+    display: flex;
+    width: 196px;
+    height: 305px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    position: relative;
+    left: 60px;
+}
+.n2{
+    font-size: 1rem;
+    color: #000;
+}
+.star2{
+    color: rgb(184, 178, 178);
+    position: relative;
+    bottom: 15px;
+}
+.movie3{
+    display: flex;
+    width: 196px;
+    height: 305px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    position: relative;
+    left: 90px;
+}
+.n3{
+    font-size: 1rem;
+    color: #000;
+}
+.star3{
+    color: rgb(184, 178, 178);
+    position: relative;
+    bottom: 15px;
+}
+.movie4{
+    display: flex;
+    width: 196px;
+    height: 305px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    position: relative;
+    left: 120px;
+}
+.n4{
+    font-size: 1rem;
+    color: #000;
+}
+.star4{
+    color: rgb(184, 178, 178);
+    position: relative;
+    bottom: 15px;
+}
+.movie5{
+    display: flex;
+    width: 196px;
+    height: 305px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    position: relative;
+    left: 150px;
+}
+.n5{
+    font-size: 1rem;
+    color: #000;
+}
+.star5{
+    color: rgb(184, 178, 178);
+    position: relative;
+    bottom: 15px;
+}
+.movie6{
+    display: flex;
+    width: 196px;
+    height: 305px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    position: relative;
+    left: 180px;
+}
+.n6{
+    font-size: 1rem;
+    color: #000;
+}
+.star6{
+    color: rgb(184, 178, 178);
+    position: relative;
+    bottom: 15px;
+}
+.movie7{
+    display: flex;
+    width: 196px;
+    height: 305px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    position: relative;
+    left: 210px;
+}
+.n7{
+    font-size: 1rem;
+    color: #000;
+}
+.star7{
+    color: rgb(184, 178, 178);
+    position: relative;
+    bottom: 15px;
+}
+.dzb{
+    display: flex;
+    width: 60px;
+    height: 25px;
+    font-size: 0.5rem;
+    padding-left: 10px;
+    position: relative;
+    top: 200px;
+    left: 137px;
+}
+.ry1{
+    display: flex;
+    width: 1590px;
+    position: relative;
+    left: 110px;
+    top: 215px;
+}

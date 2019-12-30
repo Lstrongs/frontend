@@ -3,6 +3,7 @@ import DefaultHeader from './../Header/header'
 import HistoryPage from './History/history';
 import {Link,BrowserRouter,Route} from 'react-router-dom'
 import SalePage from './Sale/sale';
+import Type from './Type/type';
 import { Button } from 'antd';
 import { Menu, Dropdown, Icon } from 'antd';
 var HomePageCSS= require('./homepage.css')
@@ -10,10 +11,22 @@ var HomePageCSS= require('./homepage.css')
 
 
 export default class HomePage extends React.Component{
+    getTypeList(){
+        let datalist=[{
+            id:1,
+            type1:"动作",
+            type2:"喜剧",
+            
+        }]
+        return datalist;
+}
      
     render(){
-     
+        let dataList =this.getTypeList();
         return(
+            dataList.map((item,i)=>(
+                <Type type={item}></Type>
+                 )),
             <div className={HomePageCSS.homePage}>
             <DefaultHeader/>
             <div className={HomePageCSS.type}>
