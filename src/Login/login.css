@@ -1,7 +1,8 @@
-.loginA{
+.loginA h3{
     width: 150px;
     position: relative;
     left: 450px;
+    color: rgb(89, 89, 212);
 }
 .loginA a{
     color: antiquewhite;
@@ -22,8 +23,11 @@
 }
 .loginB{
     height: 550px;
-    background-image: url(login.jpg) ;
-    background-color: cover;
+    width: 100%;
+    background: url(123.jpg) ;
+    
+    
+    
 }
 .loginC{
     width: 360px;

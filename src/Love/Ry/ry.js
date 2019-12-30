@@ -8,17 +8,41 @@ var RyCSS= require('./ry.css')
 
 
 export default class RyPage extends React.Component{
-    
         state = {
           current: 3,
         };
-      
         onChange = page => {
           console.log(page);
           this.setState({
             current: page,
           });
         };
+
+        constructor(props){
+            super(props);
+            this.state={
+                movieData:[]
+            }
+        }
+        changeValue=(e)=>{
+            this.setState({
+                [e.target.name]:e.target.value
+            })
+        }
+        upload =()=>{
+            var data={
+                "poster":this.state.poster,
+                "moviename":this.state.moviename,
+                "actor":this.state.actor,
+            }
+            fetch("",{
+                method:"post",
+                headers:{
+                    "Content-Type":"application/json"
+                },
+                body:JSON.stringify(data)
+            }).then(response=>response.json())
+        }
     render(){
         return(
             
