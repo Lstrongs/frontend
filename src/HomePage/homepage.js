@@ -263,11 +263,7 @@ export default class HomePage extends React.Component{
            
             </div>
 
-               <div>
-               <Route path="/homepage/history" component={HistoryPage}></Route>
-                <Route path="/homepage/sale" component={SalePage}></Route>
-               </div>
-                {/* </BrowserRouter> */}
+              
             </div>
         )
     }
