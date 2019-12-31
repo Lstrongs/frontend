@@ -28,9 +28,9 @@ export default class LoginPage extends React.Component{
         }).then(response=>response.json())
         .then(result=>{
             if(result.state==2){
-               
+                message.info("登录成功")
             }else if(result.state==1){
-               
+                message.info("登录失败")
             }      
         }).catch(e=>{
            
