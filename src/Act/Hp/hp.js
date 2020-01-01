@@ -19,7 +19,7 @@ export default class HpPage extends React.Component{
         constructor(props){
             super(props);
             this.state={
-                movieData:[]
+                movieData1:[]
             }
         }
         changeValue=(e)=>{
@@ -40,6 +40,15 @@ export default class HpPage extends React.Component{
                 },
                 body:JSON.stringify(data)
             }).then(response=>response.json())
+            .then(result=>{
+                if(result.state==2){
+                
+                }else if(result.state==1){
+               
+                }      
+            }).catch(e=>{
+            
+            })
         }
         
     render(){

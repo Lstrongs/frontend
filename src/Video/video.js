@@ -16,6 +16,41 @@ const onClick = ({ key }) => {
   );
   
 export default class VideoPage extends React.Component{
+
+    constructor(props){
+        super(props);
+        this.state={}
+    }
+    changeValue=(e)=>{
+        this.setState({
+            [e.target.name]:e.target.value
+        })
+    }
+    upload =()=>{
+        var data={
+            "playaddress":this.state.playaddress,
+            "name":this.state.name,
+            "score":this.state.score,
+            "describe":this.state.describe,
+        }
+        fetch("",{
+            method:"post",
+            headers:{
+                "Content-Type":"application/json"
+            },
+            body:JSON.stringify(data)
+        }).then(response=>response.json())
+        .then(result=>{
+            if(result.state==2){
+                message.info("")
+            }else if(result.state==1){
+                message.info("")
+            }      
+        }).catch(e=>{
+            message.error(e);
+        })
+    }
+
     render(){
         return(
             <div className={videoCSS.act}>
