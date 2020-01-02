@@ -1,6 +1,6 @@
 import React from 'react'
 import {Link,NavLink} from 'react-router-dom'
-import {  Icon,Button,Input } from 'antd';
+import {  Icon,Button,Input,message } from 'antd';
 var loginCSS= require('./login.css')
 
 export default class LoginPage extends React.Component{
@@ -28,12 +28,12 @@ export default class LoginPage extends React.Component{
         }).then(response=>response.json())
         .then(result=>{
             if(result.state==2){
-                
+                message.info("登录失败")
             }else if(result.state==1){
-               
+                message.info("登录成功")
             }      
         }).catch(e=>{
-           
+            message.error(e);
         })
     }
 
